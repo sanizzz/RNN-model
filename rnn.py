@@ -40,7 +40,7 @@ Learning_Rate = 0.00024   # my model 0.00024  austrian 0.00064
 ################################################################### PRE-PROCESSING #############################################################################
 
 # Load all data from the file
-pd_All_Data = pd.read_csv('all data (2).txt', header=None, delimiter=',', engine='python')
+pd_All_Data = pd.read_csv(r"C:\Users\sanid\OneDrive\Desktop\RNN model\RNN-model\all_data.txt", delimiter=',', engine= 'python')
 pd_All_Data.pop(0)  # Remove first column
 
 # Convert to numpy array
